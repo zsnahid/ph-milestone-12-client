@@ -12,7 +12,9 @@ export default function Slider() {
     <Carousel
       showStatus={false}
       dynamicHeight={false}
-      className=""
+      swipeable={true}
+      emulateTouch={true}
+      infiniteLoop={true}
     >
       <div>
         <img src={img1} />

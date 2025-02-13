@@ -11,7 +11,36 @@
   object-fit: cover;
 }
 
-.thumbs-wrapper{
+.thumbs-wrapper {
   display: flex;
   place-content: center;
+}
+
+.category-carousel {
+  margin-inline: auto;
+}
+
+.category-carousel .slide img {
+  height: 500px;
+}
+
+.category-image-container {
+  padding-right: 1rem;
+  text-transform: uppercase;
+}
+
+.category-carousel .thumbs-wrapper {
+  display: none;
+}
+
+.legend {
+  width: 100% !important;
+  font-family: var(--font-serif);
+  font-size: 1.5rem !important;
+  background-color: transparent !important;
+  transition: none !important;
+  opacity: 100% !important;
+  left: 0 !important;
+  margin-left: 0 !important;
+  text-shadow: 1px 1px black;
 }
