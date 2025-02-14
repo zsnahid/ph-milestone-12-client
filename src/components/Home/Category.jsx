@@ -1,6 +1,7 @@
 import { Typography } from "@material-tailwind/react";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import SectionTitle from "../Shared/SectionTitle";
 import img1 from "/src/assets/home/slide1.jpg";
 import img2 from "/src/assets/home/slide2.jpg";
 import img3 from "/src/assets/home/slide3.jpg";
@@ -9,16 +10,10 @@ import img4 from "/src/assets/home/slide4.jpg";
 export default function Category() {
   return (
     <div className="mt-20">
-      <Typography className="mb-2 text-center italic text-yellow-600">
-        {" "}
-        ---From 11:00am to 10:00pm---
-      </Typography>
-      <Typography
-        variant="h3"
-        className="uppercase font-light text-center px-12 py-4 border-y-4 border-y-gray-300 w-fit mx-auto mb-8"
-      >
-        Order Online
-      </Typography>
+      <SectionTitle
+        heading={"Order Online"}
+        subheading={"From 11:00am to 10:00pm"}
+      />
       <Carousel
         showStatus={false}
         showArrows={false}

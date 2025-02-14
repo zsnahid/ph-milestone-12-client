@@ -4,6 +4,8 @@
 @theme {
   --font-sans: "Inter", "sans-serif";
   --font-serif: "Cinzel", "serif";
+  --color-accent: #bb8506;
+  --background-image-featured: url(/src/assets/home/featured.jpg);
 }
 
 .slide img {

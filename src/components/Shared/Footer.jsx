@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="bg-[#1F2937] py-14">
         <Typography
           variant="h4"
-          className="font-thin mb-5"
+          className="font-light mb-5"
         >
           Contact Us
         </Typography>
@@ -22,7 +22,7 @@ export default function Footer() {
       <div className="bg-[#111827] py-14 space-y-5">
         <Typography
           variant="h4"
-          className="font-thin"
+          className="font-light"
         >
           Follow Us
         </Typography>
